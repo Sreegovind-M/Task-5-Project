@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eurtech</title>
+    <link rel="stylesheet" href="alter_style.css" />
+  </head>
+  <body>
+    <div class="tot-body">
+      <!-- Header section start  -->
+
+      <header class="header-section">
+        <!-- Top Bar section start -->
+
+        <div class="top-bar">
+          <div class="top-bar-body">
+            <div class="top-link">
+              <a href="" id="faq">Faq</a>
+              <a href="">Case</a>
+            </div>
+            <div class="top-endlink">
+              <span class="top-sm">
+                <a href=""><b>F</b></a>
+                <a href=""><b>T</b></a>
+                <a href=""><b>Be</b></a>
+                <a href=""><b>Y</b></a>
+                <a href=""><b>In</b></a>
+              </span>
+              <button>English &darr;</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Top Bar section end  -->
+
+        <!-- Top header start  -->
+
+        <div class="top-header-wrap">
+          <div class="top-header">
+            <a> <img src="./Images/title.png" class="title-img" /> </a>
+            <div class="header-menu-section">
+              <div class="nav-contact">
+                <div class="nav-contact-info">
+                  <div class="contact-img">
+                    <img src="./Images/phone.png" alt="" />
+                  </div>
+                  <div class="contact-info">
+                    <p>Call us now</p>
+                    <h4>00 211 232 000</h4>
+                  </div>
+                </div>
+
+                <div class="nav-contact-info">
+                  <div class="contact-img">
+                    <img src="./Images/mail.png" alt="" />
+                  </div>
+                  <div class="contact-info">
+                    <p>Email Address</p>
+                    <h4>info@webmail.com</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="appointment-box">
+                <button>
+                  GET APPOINTMENT <span><b>&gt;</b></span>
+                </button>
+              </div>
+            </div>
+            <img
+              src="./Images/menu-bar.png"
+              class="toggle-menu"
+              onclick="openNav(this)"
+            />
+          </div>
+        </div>
+
+        <!-- Top header end  -->
+
+        <!-- Responsive nav start  -->
+
+        <div class="fix" id="res-nav">
+          <div id="sidenav" class="sidenav">
+            <div class="sidenav-content">
+              <div class="sidenav-header">
+                <img
+                  src="./Images/title-2.png"
+                  alt="Eurtech Logo"
+                  class="logo"
+                />
+                <div class="sidenav-close">
+                  <button class="close-btn" onclick="closeNav()">
+                    &times;
+                  </button>
+                </div>
+              </div>
+              <div class="sidenav-searchbox">
+                <input
+                  type="text"
+                  placeholder="What are you searching for?"
+                  class="search-input"
+                />
+                <img src="./Images/search-3.svg" class="search-btn" alt="" />
+              </div>
+              <div class="sidenav-menu">
+                <ul class="nav-links">
+                  <li><a>Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+
+              <div class="sidenav-contact-info">
+                <h4>Contact Info</h4>
+                <ul>
+                  <li class="center-align">
+                    <div class="contactinfo-icon">
+                      <img src="./Images/location.png" class="icon" alt="" />
+                    </div>
+                    <div class="contactinfo-text">
+                      <a><b>12/A, Mirnada City Tower, NYC</b></a>
+                    </div>
+                  </li>
+                  <li class="center-align">
+                    <div class="contactinfo-icon">
+                      <img src="./Images/phone-icon.png" class="icon" alt="" />
+                    </div>
+                    <div class="contactinfo-text">
+                      <a><b>+008897238474</b></a>
+                    </div>
+                  </li>
+                  <li class="center-align">
+                    <div class="contactinfo-icon">
+                      <img src="./Images/maili.png" class="icon" alt="" />
+                    </div>
+                    <div class="contactinfo-text">
+                      <a><b>support@email.com</b></a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="sidenav-socialmedia">
+                <ul>
+                  <li><a>f</a></li>
+                  <li><a>t</a></li>
+                  <li><a>Y</a></li>
+                  <li><a>in</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="sidemenu-overlay" class="sidemenu-overlay"></div>
+
+        <!-- Responsive nav end  -->
+
+        <!-- Navigation Section start -->
+
+        <div class="navigation-section-wrap">
+          <div class="navigation-section">
+            <div class="menu-dot-box">
+              <img src="./Images/menu-dots.svg" alt="" class="menu-dots" />
+            </div>
+            <nav class="nav-bar">
+              <ul class="nav-items">
+                <li>
+                  <a href="">HOME + </a>
+                </li>
+                <li>
+                  <a href="">ABOUT</a>
+                </li>
+                <li>
+                  <a href="">SERVICES + </a>
+                </li>
+                <li>
+                  <a href="">BLOG + </a>
+                </li>
+                <li>
+                  <a href="">PAGES + </a>
+                </li>
+                <li>
+                  <a href="">CONTACT</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="search-box">
+              <img src="./Images/search-3.svg" alt="" class="search-img" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigation section end  -->
+      </header>
+
+      <!-- Header section end  -->
+
+      <!-- Hero body section start  -->
+
+      <section class="hero-body">
+        <div class="hero-body-words">
+          <div class="hero-body-content">
+            <span>We Provide Outsourced</span>
+            <h1>IT Solution</h1>
+            <p>
+              IT producers worldwide face similar challenges around animal
+              welfare, farm profitablility, product and work efficiency.
+            </p>
+            <div class="start-box">
+              <button>GET STARTED <span>&gt;</span></button>
+              <div class="play-box">
+                <img src="./Images/play.png" class="play-img" alt="" />
+                <h4>INTRO VIDEO</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Hero body section end  -->
+
+      <section class="about-us-section">
+        <div class="about-imgs">
+          <div class="experience-box">
+            <h1>30</h1>
+            <p>Years Experience</p>
+          </div>
+
+          <img src="./Images/about-us-img.jpg" class="aboutus-img" alt="" />
+        </div>
+        <div class="about-us-words">
+          <div class="about-us-title">
+            <span>// About Us</span>
+            <h1>Best in classy product near from you.</h1>
+          </div>
+          <div class="about-us-descrip">
+            <p>
+              From finance, retail, and travel, to social media, cybersecurity,
+              adtech, and more, market leaders are leveraging web data to
+              maintain their advantage. Discover how it can work for you.
+            </p>
+          </div>
+          <div class="about-us-quote">
+            <h4>Highest quality data, #01 network uptime, fastest output.</h4>
+            <h4>Unlimited scale and customizing possibilities.</h4>
+            <h4>Miranda Helson, <span>Head of Idea</span></h4>
+          </div>
+          <div class="learn-more">
+            <button>LEARN MORE <span>&gt;</span></button>
+          </div>
+        </div>
+      </section>
+
+      <!-- About us section end  -->
+
+      <!-- Work stats section start  -->
+
+      <section class="work-stats-section">
+        <div class="counter-section">
+          <div>
+            <h1 class="counter-numbers">30</h1>
+            <p>Year experience in this field</p>
+          </div>
+
+          <div>
+            <h1 class="counter-numbers">676</h1>
+            <p>Worldwide good clients</p>
+          </div>
+
+          <div>
+            <h1 class="counter-numbers">1200</h1>
+            <p>Worldwide Captured online base</p>
+          </div>
+
+          <div>
+            <h1 class="counter-numbers">5</h1>
+            <p>Masterclass Team ever made</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Work stats section end  -->
+
+      <section class="service-section">
+        <div class="service-header">
+          <div class="service-title">
+            <span>// Service</span>
+            <h1>What we do here</h1>
+          </div>
+          <div class="service-box">
+            <button>SERVICES <span>&gt;</span></button>
+          </div>
+        </div>
+        <div class="service-options">
+          <div class="service-grid">
+            <div>
+              <img src="./Images/seo.png" class="seo" alt="" />
+              <h2>SEO Monitoring</h2>
+              <p>The quality data, best network uptime, fastest output.</p>
+              <span>// Read More</span>
+            </div>
+            <div>
+              <img src="./Images/server.png" class="server" alt="" />
+              <h2>Server Security</h2>
+              <p>The quality data, best network uptime, fastest output.</p>
+              <span>// Read More</span>
+            </div>
+            <div>
+              <img src="./Images/ui.png" class="ui" alt="" />
+              <h2>UX/UI Strategy</h2>
+              <p>The quality data, best network uptime, fastest output.</p>
+              <span>// Read More</span>
+            </div>
+            <div>
+              <img src="./Images/analyse.png" class="ana" alt="" />
+              <h2>Analysis Tools</h2>
+              <p>The quality data, best network uptime, fastest output.</p>
+              <span>// Read More</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Work stats section end  -->
+
+      <!-- Customer Experience section start  -->
+
+      <section class="customer-experience-section">
+        <div class="cust-body">
+          <div class="cust-header">
+            <div class="cust-title">
+              <span>// Some Facts</span>
+              <h1>The best customer experience</h1>
+            </div>
+            <div class="skill-prog">
+              <div class="skill-1">
+                <div class="skill-title">
+                  <h4>Design & Servicing --- 64%</h4>
+                </div>
+                <div class="skill-bar-1"></div>
+              </div>
+              <div class="skill-2">
+                <div class="skill-title">
+                  <h4>Support & Productivity --- 82%</h4>
+                </div>
+                <div class="skill-bar-2"></div>
+              </div>
+              <div class="skill-3">
+                <div class="skill-title">
+                  <h4>Troubleshooting --- 70%</h4>
+                </div>
+                <div class="skill-bar-3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="exp-img">
+            <img src="./Images/exp-img.png" class="cust-exp-img" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Customer experience section end  -->
+
+      <!-- Query section start  -->
+
+      <section class="query-section">
+        <div class="query-body">
+          <div class="query-header">
+            <span>// Services //</span>
+            <h1>What we do here</h1>
+          </div>
+          <div class="query-boxes">
+            <input
+              type="email"
+              id="query-namei"
+              name="email"
+              placeholder="Email address"
+            />
+            <input
+              type="text"
+              id="query-webi"
+              name="website-name"
+              placeholder="Website name"
+            />
+            <button>TEST SPEED <span>&gt;</span></button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Query section end  -->
+
+      <!-- Portfolio section start -->
+
+      <section class="portfolio-section">
+        <div class="port-header">
+          <div class="port-title">
+            <span>// Portfolio</span>
+            <h1>Case studies</h1>
+          </div>
+          <div class="arrow-toggle">
+            <button class="left-arrow">&lt;</button>
+            <button class="right-arrow">&gt;</button>
+          </div>
+        </div>
+        <div class="port-body">
+          <div class="port-box" id="port-1">
+            <img src="./Images/cyber.jpg" class="cyber-img" alt="" />
+            <div class="port-content">
+              <h3>Cybersecurity</h3>
+              <p>If you’ve built up your IT system over a period of time.</p>
+              <span><b>Read More</b></span>
+            </div>
+          </div>
+          <div class="port-box" id="port-2">
+            <img src="./Images/prob-sol.jpg" class="ps-img" alt="" />
+            <div class="port-content">
+              <h3>Problem Solutions</h3>
+              <p>If you’ve built up your IT system over a period of time.</p>
+              <span><b>Read More</b></span>
+            </div>
+          </div>
+          <div class="port-box" id="port-3">
+            <img src="./Images/web.jpg" class="web-img" alt="" />
+            <div class="port-content">
+              <h3>Web Analysis</h3>
+              <p>If you’ve built up your IT system over a period of time.</p>
+              <span><b>Read More</b></span>
+            </div>
+          </div>
+          <div class="port-box" id="port-4">
+            <img src="./Images/prod-ana.jpg" class="pa-img" alt="" />
+            <div class="port-content">
+              <h3>Product Analysis</h3>
+              <p>If you’ve built up your IT system over a period of time.</p>
+              <span><b>Read More</b></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio section end  -->
+
+      <!-- Feedback section start  -->
+
+      <section class="feedback-section">
+        <div class="feedback-body">
+          <div class="feedback-header">
+            <span>// Testimonals</span>
+            <h1>User feedbacks</h1>
+          </div>
+          <div class="feedback-container">
+            <div class="feedback-box-1">
+              <div class="box-content">
+                <p>
+                  "The worlds #1 web data platform from data collection
+                  infrastructure to ready-made datasets, brights tow allow you
+                  to retrive the public web data you care about."
+                </p>
+              </div>
+              <div class="box-user">
+                <img src="./Images/prof.png" class="feed-img" alt="" />
+                <div class="user-info">
+                  <h4>Miranda Nelson</h4>
+                  <p>Head of Idea</p>
+                </div>
+              </div>
+            </div>
+            <div class="feedback-box-2">
+              <div class="box-content">
+                <p>
+                  "The worlds #2 web data platform from data collection
+                  infrastructure to ready-made datasets, brights tow allow you
+                  to retrive the public web data you care about."
+                </p>
+              </div>
+              <div class="box-user">
+                <img src="./Images/prof.png" class="feed-img" alt="" />
+                <div class="user-info">
+                  <h4>Alexis Dowson</h4>
+                  <p>Founder</p>
+                </div>
+              </div>
+            </div>
+            <div class="feedback-box-3">
+              <div class="box-content">
+                <p>
+                  "The worlds #3 web data platform from data collection
+                  infrastructure to ready-made datasets, brights tow allow you
+                  to retrive the public web data you care about."
+                </p>
+              </div>
+              <div class="box-user">
+                <img src="./Images/prof.png" class="feed-img" alt="" />
+                <div class="user-info">
+                  <h4>Steven Smith</h4>
+                  <p>Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feedback section end  -->
+
+      <!-- News section start  -->
+
+      <section class="news-section">
+        <div class="news-header">
+          <div class="news-title">
+            <span>// News</span>
+            <h1>News & Insights</h1>
+          </div>
+          <div class="news-box">
+            <button>MORE NEWS <span>&gt;</span></button>
+          </div>
+        </div>
+        <div class="news-body">
+          <div class="news1-body">
+            <div class="news-img">
+              <button>IT SOLUTION</button>
+              <img src="./Images/news-1.jpg" alt="" />
+            </div>
+            <div class="news-content">
+              <p>Jul 10, 2022 ---- Romarola H.</p>
+              <h3>That will bring together 20 industry leading speakers</h3>
+            </div>
+          </div>
+          <div class="news2-body">
+            <div class="news-img">
+              <button>TECHNOLOGY</button>
+              <img src="./Images/news-2.jpg" alt="" />
+            </div>
+            <div class="news-content">
+              <p>Aug 10, 2022 --- Steven</p>
+              <h3>DevFest for Ukraine is a charitable tech conference</h3>
+            </div>
+          </div>
+          <div class="news3-body">
+            <div class="news-img">
+              <button>WEB SECURITY</button>
+              <img src="./Images/news-3.jpg" alt="" />
+            </div>
+            <div class="news-content">
+              <p>Aug 16, 2022 --- Perkar</p>
+              <h3>In times like these, uniting efforts & working together</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- News section end  -->
+
+      <!-- Newsletter section start  -->
+
+      <section class="newsletter-section">
+        <div class="newsletter-body">
+          <div class="newsletter-title">
+            <span>// Newsletter</span>
+            <h1>User feedbacks</h1>
+          </div>
+          <div class="newsletter-content">
+            <form>
+              <input
+                type="email"
+                id="news-in"
+                name="email"
+                placeholder="Email address"
+              />
+              <button>NEWSLETTER</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter section end  -->
+
+      <!-- Footer section start -->
+
+      <section class="footer-section">
+        <div class="footer-body">
+          <div class="foot">
+            <h3>About Us</h3>
+            <p>
+              Learn from industry-leading speakers like Romain Guy and Chet
+              Haase who have been building Android since 1.0, Jhey Tompkins and
+              Una Kravets from the Google Chrome team.
+            </p>
+          </div>
+          <div class="foot-2">
+            <h3>Pages</h3>
+            <div class="foot-2-content">
+              <ul>
+                <li>About Us</li>
+                <li>Services</li>
+                <li>Price & Plan</li>
+                <li>Case Study</li>
+                <li>404 Page</li>
+              </ul>
+              <ul>
+                <li>Our Terms</li>
+                <li>Faq</li>
+                <li>News</li>
+                <li>Contact</li>
+                <li>Membership</li>
+              </ul>
+            </div>
+          </div>
+          <div class="foot">
+            <h3>Our Services</h3>
+            <ul>
+              <li>Software Solution</li>
+              <li>Digital Marketing</li>
+              <li>UI & UX Design</li>
+              <li>Web Development</li>
+              <li>24/7 Online Support</li>
+            </ul>
+          </div>
+          <div class="foot-l">
+            <h3>Our Availability</h3>
+            <ul>
+              <li>Mon - Fri</li>
+              <h4>10:00 am to 06:00 pm</h4>
+              <br />
+              <li>Saturday (1st & 4th)</li>
+              <h4>08:00 am to 04:00 pm</h4>
+              <span class="emergency-box">
+                <img src="./Images/message.png" alt="" />
+                <span>
+                  <h5>Emergency Service</h5>
+                  <h5>000 111 222 333</h5>
+                </span>
+              </span>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bar">
+          <div class="footer-bar-content">
+            <img src="./Images/title-2.png" class="title" alt="" />
+            <div>
+              <ul class="bar-nav">
+                <li>ABOUT</li>
+                <li>FAQ</li>
+                <li>CONTACT</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer section end  -->
+
+      <script>
+        const sidenav = document.getElementById("sidenav");
+        function openNav(e) {
+          sidenav.style.display = "block";
+        }
+        function closeNav(e) {
+          sidenav.style.display = "none";
+        }
+      </script>
+    </div>
+  </body>
+</html>
